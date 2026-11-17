@@ -1,0 +1,27 @@
+{
+  "name": "whatsapp-memories",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "clean": "git clean -xdf"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "eslint": "^9.13.0",
+    "prettier": "^3.4.2",
+    "turbo": "^2.3.0",
+    "@tailwindcss/typography": "^0.5.15"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=9.0.0"
+  }
+}

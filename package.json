@@ -1,0 +1,23 @@
+{
+  "name": "@whatsapp-memories/root",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "packageManager": "npm@10.9.2",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "clean": "git clean -xdf"
+  },
+  "dependencies": {
+    "@changesets/cli": "^2.27.8"
+  }
+}
