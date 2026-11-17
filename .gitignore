@@ -44,3 +44,6 @@ coverage/
 *.json  # Keep package.json in apps/, exclude root-level except .gitignore
 turbo.json
 
+# Exclude turbo config from root for cleaner Vercel build
+turbo.json
+
